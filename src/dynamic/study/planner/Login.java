@@ -29,12 +29,11 @@ public class Login extends JFrame implements ActionListener {
         titleBar.setBackground(Color.LIGHT_GRAY);
         titleBar.setPreferredSize(new Dimension(850, 30));
 
-        // টাইটেল লেবেল তৈরি করুন এবং ফন্ট স্টাইল সেট করুন
         titleLabel = new JLabel("Dynamic Study Planner - Login");
         titleLabel.setFont(new Font("Arial", Font.BOLD, 16));
         titleBar.add(titleLabel);
 
-        // কন্টেন্ট প্যানেল তৈরি করুন
+        
         JPanel contentPane = new JPanel();
         contentPane.setLayout(null);
         contentPane.add(titleBar);
